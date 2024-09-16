@@ -16,9 +16,9 @@ function App() {
       <Navbar />
       <div className="container">
         <Routes>
-          <Route exact path="/" element={HomePage} />
-          <Route exact path="/about" element={AboutPage} />
-          <Route path="/singleshow/:id" element={SinglePage} />
+          <Route exact path="/" Component={HomePage} />
+          <Route exact path="/about" Component={AboutPage} />
+          <Route path="/singleshow/:id" Component={SinglePage} />
         </Routes>
       </div>
     </Router>
