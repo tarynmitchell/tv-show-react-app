@@ -13,6 +13,14 @@ const Navbar = () => {
               <FontAwesomeIcon icon={faVideo} /> TV SHOW SEARCH
             </Link>
           </h3>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="./pages/Aboutpage.js">About</Link>
+            </li>
+          </ul>
         </nav>
       </div>
     </div>
