@@ -7,17 +7,17 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="container">
-        <nav>
-          <h3>
+        <nav className="navbar__nav">
+          <h3 className="navbar__brand">
             <Link to="/">
               <FontAwesomeIcon icon={faVideo} /> TV SHOW SEARCH
             </Link>
           </h3>
-          <ul>
-            <li>
+          <ul className="nav-links">
+            <li className="links-links">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="links-links">
               <Link to="./pages/Aboutpage.js">About</Link>
             </li>
           </ul>

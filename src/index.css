@@ -6,3 +6,43 @@ body {
   max-width: 1170px;
   margin: auto;
 }
+
+.navbar {
+  padding: 1rem;
+  background: #171717;
+}
+
+.navbar__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__brand a {
+  font-size: 1.4rem;
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+.navbar__brand a:hover {
+  color: #441211;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.links-links a {
+  display: block;
+  padding: 1rem;
+  color: #f4f4f4;
+  text-decoration: none;
+  border: 1px solid #171717;
+  font-size: 20px;
+}
+
+.links-links a:hover {
+  color: #441211;
+}
