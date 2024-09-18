@@ -44,5 +44,6 @@ body {
 }
 
 .links-links a:hover {
+  border-bottom: 1px solid #441211;
   color: #441211;
 }
