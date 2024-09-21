@@ -3,6 +3,11 @@ import { useState } from "react";
 
 const Searchbar = () => {
   const [searchTerm, setSearchTerm] = useState("");
+
+  const onSearchHandler = function (event) {
+    event.preventDefault();
+  };
+
   return (
     <div class="searchbar">
       <form className="searchbar_form">
