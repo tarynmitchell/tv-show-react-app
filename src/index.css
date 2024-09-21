@@ -79,3 +79,22 @@ body {
       rgb(135, 2, 35) 90%
     );
 }
+
+.btn {
+  padding: 10px 17px;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 1rem 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--branding-color);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
