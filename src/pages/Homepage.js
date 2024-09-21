@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Searchbar from "../components/Searchbar";
 
 const Homepage = () => {
   return (
     <div className="homepage">
-     This is the homepage 
+      <Searchbar />
     </div>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;
