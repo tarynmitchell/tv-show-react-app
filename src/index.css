@@ -98,3 +98,26 @@ body {
   display: block;
   width: 100%;
 }
+
+/* Alert Styles */
+.alert {
+  padding: 10px 17px;
+  font-size: 20px;
+  border: 1px solid var(--primary-color);
+  margin: 1rem 0;
+}
+
+.alert-warning {
+  background: #f8ffc4;
+  color: 1px solid #ffee00;
+}
+
+.alert-danger {
+  background: #ffc4c4;
+  color: 1px solid #ff0000;
+}
+
+.alert-info {
+  background: #d7eafe;
+  color: 1px solid #0523b7;
+}
